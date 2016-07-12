@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Khobor</title>
+    <!-- Latest compiled and minified CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="/css/basic.css">
+    <style>
+
+</style>
+  </head>
+  <body class="w3-light-grey">
+    <div class="header w3-row">
+      <div style="padding-left:20px;" class="head-holder w3-col m6 l6">
+        <h1 class="title">
+          খবর
+        </h1>
+        <h4 class="subtitle">
+          নিরপেক্ষ প্রতিদিন
+        </h4>
+      </div>
+ <div class="w3-container w3-red w3-col m6 l6">
+  <span class="w3-closebtn" onclick="this.parentElement.style.display='none'">X</span>
+  <h1>আপনার বিজ্ঞাপন দিন</h1>
+</div> 
+      <!--<h1 class="head-ad w3-col m6 l6">
+        Ad here
+      </h1>-->
+    </div>
+<nav class="w3-light-grey w3-bottombar w3-border-green" style="height:44.5px;">
+    <ul class="w3-navbar w3-card-2" style="background:transparent;">
+      <li><a class="w3-bottombar w3-border-green w3-hover-border-red" href="#">প্রচ্ছদ</a></li>
+      <li><a class="w3-bottombar w3-border-green w3-hover-border-red" href="#">দেশ</a></li>
+      <li><a class="w3-bottombar w3-border-green w3-hover-border-red" href="#">রাজনীতি</a></li>
+      <li><a class="w3-bottombar w3-border-green w3-hover-border-red" href="#">বিশ্ব</a></li>
+      <li><a class="w3-bottombar w3-border-green w3-hover-border-red" href="#">খেলাধুলা</a></li>
+      <li><a class="w3-bottombar w3-border-green w3-hover-border-red" href="#">বিনোদন</a></li>
+    </ul>
+</nav>
+    <div class="container w3-row">
+      <div class="main-content w3-col l9">  
+        <div class="w3-content w3-display-container">
+          <div class="w3-display-container featured-item">
+            <div class="image-wrapper"><img src="/images/gulshan.jpg" class="slide-image"></div>
+            <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+              গুলশানে আইসিস এর হামলা
+            </div>
+          </div>
+          <div class="w3-display-container featured-item">
+            <div class="image-wrapper"><img src="/images/zakir.jpg" class="slide-image"></div>
+            <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+              মারা খেলো জাকির নায়েক!
+            </div>
+          </div>
+          <div class="w3-display-container featured-item">
+            <div class="image-wrapper"><img src="/images/gulshan.jpg" class="slide-image"></div>
+            <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+              গুলশানে আইসিস এর হামলা
+            </div>
+          </div>
+          <div class="w3-center w3-section w3-large w3-text-white w3-display-bottomleft" style="width:100%;">
+            <div class="w3-left w3-padding-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right w3-padding-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+          </div>
+        </div>
+      </div>
+      <div class="latest-news w3-col l3">
+        <div class="latest-news-header w3-card-4 w3-leftbar w3-border-red w3-pale-green w3-text-red"><h3 style="margin:0 0;">সর্বশেষ সংবাদ</h3></div>
+        <div class="latest-news-content">
+          <div class="w3-card-2 latest-news-item"><h5 class="h-news w3-text-red"><a style="text-decoration: none;" href="#">তাজা খবর!</a></h5><p style="text-align:justify;">ইয়াদি কির্দ অত্র কাকালতনামা লিখিতং শ্রীকাক্কেশ্বর কুচ্কুচে কার্যঞ্চাগে। ইমারত্ খেসারত্ দলিল দস্তাবেজ। তস্য ওয়ারিশানগণ মালিক দখলিকার সত্ত্বে অত্র নায়েব সেরেস্তায় দস্ত বদস্ত কায়েম মোকররী পত্তনীপাট্টা অথবা কাওলা কবুলিয়ত্। সত্যতায় কি বিনা সত্যতায় মুনসেফী আদালতে কিম্বা দায়রায় সোপর্দ আসামী ফরিয়াদী সাক্ষী সাবুদ গয়রহ মোকর্দমা দায়ের কিম্বা আপোস মকমল ডিক্রীজারী নিলাম ইস্তাহার ইত্যাদি সর্বপ্রকার কর্তব্য বিধায়</p>
+          </div>
+          <div class="w3-card-2 latest-news-item"><h5 class="h-news w3-text-red"><a style="text-decoration: none;" href="#">তাজা খবর!</a></h5><p style="text-align:justify;">ইয়াদি কির্দ অত্র কাকালতনামা লিখিতং শ্রীকাক্কেশ্বর কুচ্কুচে কার্যঞ্চাগে। ইমারত্ খেসারত্ দলিল দস্তাবেজ। তস্য ওয়ারিশানগণ মালিক দখলিকার সত্ত্বে অত্র নায়েব সেরেস্তায় দস্ত বদস্ত কায়েম মোকররী পত্তনীপাট্টা অথবা কাওলা কবুলিয়ত্। সত্যতায় কি বিনা সত্যতায় মুনসেফী আদালতে কিম্বা দায়রায় সোপর্দ আসামী ফরিয়াদী সাক্ষী সাবুদ গয়রহ মোকর্দমা দায়ের কিম্বা আপোস মকমল ডিক্রীজারী নিলাম ইস্তাহার ইত্যাদি সর্বপ্রকার কর্তব্য বিধায়</p>
+          </div>
+          <div class="w3-card-2 latest-news-item"><h5 class="h-news w3-text-red"><a style="text-decoration: none;" href="#">তাজা খবর!</a></h5><p style="text-align:justify;">ইয়াদি কির্দ অত্র কাকালতনামা লিখিতং শ্রীকাক্কেশ্বর কুচ্কুচে কার্যঞ্চাগে। ইমারত্ খেসারত্ দলিল দস্তাবেজ। তস্য ওয়ারিশানগণ মালিক দখলিকার সত্ত্বে অত্র নায়েব সেরেস্তায় দস্ত বদস্ত কায়েম মোকররী পত্তনীপাট্টা অথবা কাওলা কবুলিয়ত্। সত্যতায় কি বিনা সত্যতায় মুনসেফী আদালতে কিম্বা দায়রায় সোপর্দ আসামী ফরিয়াদী সাক্ষী সাবুদ গয়রহ মোকর্দমা দায়ের কিম্বা আপোস মকমল ডিক্রীজারী নিলাম ইস্তাহার ইত্যাদি সর্বপ্রকার কর্তব্য বিধায়</p>
+          </div>
+          <div class="w3-card-2 latest-news-item"><h5 class="h-news w3-text-red"><a style="text-decoration: none;" href="#">তাজা খবর!</a></h5><p style="text-align:justify;">ইয়াদি কির্দ অত্র কাকালতনামা লিখিতং শ্রীকাক্কেশ্বর কুচ্কুচে কার্যঞ্চাগে। ইমারত্ খেসারত্ দলিল দস্তাবেজ। তস্য ওয়ারিশানগণ মালিক দখলিকার সত্ত্বে অত্র নায়েব সেরেস্তায় দস্ত বদস্ত কায়েম মোকররী পত্তনীপাট্টা অথবা কাওলা কবুলিয়ত্। সত্যতায় কি বিনা সত্যতায় মুনসেফী আদালতে কিম্বা দায়রায় সোপর্দ আসামী ফরিয়াদী সাক্ষী সাবুদ গয়রহ মোকর্দমা দায়ের কিম্বা আপোস মকমল ডিক্রীজারী নিলাম ইস্তাহার ইত্যাদি সর্বপ্রকার কর্তব্য বিধায়</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container w3-row">
+      <div class="w3-col l9">
+        <div class="column-news w3-col l4">
+          <div class="column-news-header w3-card-4 w3-purple w3-leftbar w3-border-deep-purple w3-round-large"><h3 style="margin:0 0;">দেশের খবর</h3></div>
+          <div class="column-news-content">
+            <div class="w3-card-2 column-news-item"><h5 class="h-news w3-text-deep-purple"><a style="text-decoration: none;" href="#">তাজা খবর!</a></h5><p style="text-align:justify;">ইয়াদি কির্দ অত্র কাকালতনামা লিখিতং শ্রীকাক্কেশ্বর কুচ্কুচে কার্যঞ্চাগে। ইমারত্ খেসারত্ দলিল দস্তাবেজ। তস্য ওয়ারিশানগণ মালিক দখলিকার সত্ত্বে অত্র নায়েব সেরেস্তায় দস্ত বদস্ত কায়েম মোকররী পত্তনীপাট্টা অথবা কাওলা কবুলিয়ত্। সত্যতায় কি বিনা সত্যতায় মুনসেফী আদালতে কিম্বা দায়রায় সোপর্দ আসামী ফরিয়াদী সাক্ষী সাবুদ গয়রহ মোকর্দমা দায়ের কিম্বা আপোস মকমল ডিক্রীজারী নিলাম ইস্তাহার ইত্যাদি সর্বপ্রকার কর্তব্য বিধায়</p>
+            </div>
+            <div class="w3-card-2 column-news-item"><h5 class="h-news w3-text-deep-purple"><a style="text-decoration: none;" href="#">তাজা খবর!</a></h5><p style="text-align:justify;">ইয়াদি কির্দ অত্র কাকালতনামা লিখিতং শ্রীকাক্কেশ্বর কুচ্কুচে কার্যঞ্চাগে। ইমারত্ খেসারত্ দলিল দস্তাবেজ। তস্য ওয়ারিশানগণ মালিক দখলিকার সত্ত্বে অত্র নায়েব সেরেস্তায় দস্ত বদস্ত কায়েম মোকররী পত্তনীপাট্টা অথবা কাওলা কবুলিয়ত্। সত্যতায় কি বিনা সত্যতায় মুনসেফী আদালতে কিম্বা দায়রায় সোপর্দ আসামী ফরিয়াদী সাক্ষী সাবুদ গয়রহ মোকর্দমা দায়ের কিম্বা আপোস মকমল ডিক্রীজারী নিলাম ইস্তাহার ইত্যাদি সর্বপ্রকার কর্তব্য বিধায়</p>
+            </div>
+            <div class="w3-card-2 column-news-item"><h5 class="h-news w3-text-deep-purple"><a style="text-decoration: none;" href="#">তাজা খবর!</a></h5><p style="text-align:justify;">ইয়াদি কির্দ অত্র কাকালতনামা লিখিতং শ্রীকাক্কেশ্বর কুচ্কুচে কার্যঞ্চাগে। ইমারত্ খেসারত্ দলিল দস্তাবেজ। তস্য ওয়ারিশানগণ মালিক দখলিকার সত্ত্বে অত্র নায়েব সেরেস্তায় দস্ত বদস্ত কায়েম মোকররী পত্তনীপাট্টা অথবা কাওলা কবুলিয়ত্। সত্যতায় কি বিনা সত্যতায় মুনসেফী আদালতে কিম্বা দায়রায় সোপর্দ আসামী ফরিয়াদী সাক্ষী সাবুদ গয়রহ মোকর্দমা দায়ের কিম্বা আপোস মকমল ডিক্রীজারী নিলাম ইস্তাহার ইত্যাদি সর্বপ্রকার কর্তব্য বিধায়</p>
+            </div>
+            <div class="w3-card-2 column-news-item"><h5 class="h-news w3-text-deep-purple"><a style="text-decoration: none;" href="#">তাজা খবর!</a></h5><p style="text-align:justify;">ইয়াদি কির্দ অত্র কাকালতনামা লিখিতং শ্রীকাক্কেশ্বর কুচ্কুচে কার্যঞ্চাগে। ইমারত্ খেসারত্ দলিল দস্তাবেজ। তস্য ওয়ারিশানগণ মালিক দখলিকার সত্ত্বে অত্র নায়েব সেরেস্তায় দস্ত বদস্ত কায়েম মোকররী পত্তনীপাট্টা অথবা কাওলা কবুলিয়ত্। সত্যতায় কি বিনা সত্যতায় মুনসেফী আদালতে কিম্বা দায়রায় সোপর্দ আসামী ফরিয়াদী সাক্ষী সাবুদ গয়রহ মোকর্দমা দায়ের কিম্বা আপোস মকমল ডিক্রীজারী নিলাম ইস্তাহার ইত্যাদি সর্বপ্রকার কর্তব্য বিধায়</p>
+            </div>
+          </div>
+        </div>
+        <div class="column-news w3-col l4">
+          <div class="column-news-header w3-card-4 w3-blue w3-leftbar w3-border-indigo w3-round-large"><h3 style="margin:0 0;">রাজনীতিতে সরগরম</h3></div>
+          <div class="column-news-content">
+            <div class="w3-card-2 column-news-item"><h5 class="h-news w3-text-indigo"><a style="text-decoration: none;" href="#">তাজা খবর!</a></h5><p style="text-align:justify;">ইয়াদি কির্দ অত্র কাকালতনামা লিখিতং শ্রীকাক্কেশ্বর কুচ্কুচে কার্যঞ্চাগে। ইমারত্ খেসারত্ দলিল দস্তাবেজ। তস্য ওয়ারিশানগণ মালিক দখলিকার সত্ত্বে অত্র নায়েব সেরেস্তায় দস্ত বদস্ত কায়েম মোকররী পত্তনীপাট্টা অথবা কাওলা কবুলিয়ত্। সত্যতায় কি বিনা সত্যতায় মুনসেফী আদালতে কিম্বা দায়রায় সোপর্দ আসামী ফরিয়াদী সাক্ষী সাবুদ গয়রহ মোকর্দমা দায়ের কিম্বা আপোস মকমল ডিক্রীজারী নিলাম ইস্তাহার ইত্যাদি সর্বপ্রকার কর্তব্য বিধায়</p>
+            </div>
+            <div class="w3-card-2 column-news-item"><h5 class="h-news w3-text-indigo"><a style="text-decoration: none;" href="#">তাজা খবর!</a></h5><p style="text-align:justify;">ইয়াদি কির্দ অত্র কাকালতনামা লিখিতং শ্রীকাক্কেশ্বর কুচ্কুচে কার্যঞ্চাগে। ইমারত্ খেসারত্ দলিল দস্তাবেজ। তস্য ওয়ারিশানগণ মালিক দখলিকার সত্ত্বে অত্র নায়েব সেরেস্তায় দস্ত বদস্ত কায়েম মোকররী পত্তনীপাট্টা অথবা কাওলা কবুলিয়ত্। সত্যতায় কি বিনা সত্যতায় মুনসেফী আদালতে কিম্বা দায়রায় সোপর্দ আসামী ফরিয়াদী সাক্ষী সাবুদ গয়রহ মোকর্দমা দায়ের কিম্বা আপোস মকমল ডিক্রীজারী নিলাম ইস্তাহার ইত্যাদি সর্বপ্রকার কর্তব্য বিধায়</p>
+            </div>
+            <div class="w3-card-2 column-news-item"><h5 class="h-news w3-text-indigo"><a style="text-decoration: none;" href="#">তাজা খবর!</a></h5><p style="text-align:justify;">ইয়াদি কির্দ অত্র কাকালতনামা লিখিতং শ্রীকাক্কেশ্বর কুচ্কুচে কার্যঞ্চাগে। ইমারত্ খেসারত্ দলিল দস্তাবেজ। তস্য ওয়ারিশানগণ মালিক দখলিকার সত্ত্বে অত্র নায়েব সেরেস্তায় দস্ত বদস্ত কায়েম মোকররী পত্তনীপাট্টা অথবা কাওলা কবুলিয়ত্। সত্যতায় কি বিনা সত্যতায় মুনসেফী আদালতে কিম্বা দায়রায় সোপর্দ আসামী ফরিয়াদী সাক্ষী সাবুদ গয়রহ মোকর্দমা দায়ের কিম্বা আপোস মকমল ডিক্রীজারী নিলাম ইস্তাহার ইত্যাদি সর্বপ্রকার কর্তব্য বিধায়</p>
+            </div>
+            <div class="w3-card-2 column-news-item"><h5 class="h-news w3-text-indigo"><a style="text-decoration: none;" href="#">তাজা খবর!</a></h5><p style="text-align:justify;">ইয়াদি কির্দ অত্র কাকালতনামা লিখিতং শ্রীকাক্কেশ্বর কুচ্কুচে কার্যঞ্চাগে। ইমারত্ খেসারত্ দলিল দস্তাবেজ। তস্য ওয়ারিশানগণ মালিক দখলিকার সত্ত্বে অত্র নায়েব সেরেস্তায় দস্ত বদস্ত কায়েম মোকররী পত্তনীপাট্টা অথবা কাওলা কবুলিয়ত্। সত্যতায় কি বিনা সত্যতায় মুনসেফী আদালতে কিম্বা দায়রায় সোপর্দ আসামী ফরিয়াদী সাক্ষী সাবুদ গয়রহ মোকর্দমা দায়ের কিম্বা আপোস মকমল ডিক্রীজারী নিলাম ইস্তাহার ইত্যাদি সর্বপ্রকার কর্তব্য বিধায়</p>
+            </div>
+          </div>
+        </div>
+        <div class="column-news w3-col l4">
+          <div class="column-news-header w3-card-4 w3-pale-green w3-leftbar w3-border-green w3-round-large"><h3 style="margin:0 0;">পৃথিবীর কথা</h3></div>
+          <div class="column-news-content">
+            <div class="w3-card-2 column-news-item"><h5 class="h-news w3-text-green"><a style="text-decoration: none;" href="#">তাজা খবর!</a></h5><p style="text-align:justify;">ইয়াদি কির্দ অত্র কাকালতনামা লিখিতং শ্রীকাক্কেশ্বর কুচ্কুচে কার্যঞ্চাগে। ইমারত্ খেসারত্ দলিল দস্তাবেজ। তস্য ওয়ারিশানগণ মালিক দখলিকার সত্ত্বে অত্র নায়েব সেরেস্তায় দস্ত বদস্ত কায়েম মোকররী পত্তনীপাট্টা অথবা কাওলা কবুলিয়ত্। সত্যতায় কি বিনা সত্যতায় মুনসেফী আদালতে কিম্বা দায়রায় সোপর্দ আসামী ফরিয়াদী সাক্ষী সাবুদ গয়রহ মোকর্দমা দায়ের কিম্বা আপোস মকমল ডিক্রীজারী নিলাম ইস্তাহার ইত্যাদি সর্বপ্রকার কর্তব্য বিধায়</p>
+            </div>
+            <div class="w3-card-2 column-news-item"><h5 class="h-news w3-text-green"><a style="text-decoration: none;" href="#">তাজা খবর!</a></h5><p style="text-align:justify;">ইয়াদি কির্দ অত্র কাকালতনামা লিখিতং শ্রীকাক্কেশ্বর কুচ্কুচে কার্যঞ্চাগে। ইমারত্ খেসারত্ দলিল দস্তাবেজ। তস্য ওয়ারিশানগণ মালিক দখলিকার সত্ত্বে অত্র নায়েব সেরেস্তায় দস্ত বদস্ত কায়েম মোকররী পত্তনীপাট্টা অথবা কাওলা কবুলিয়ত্। সত্যতায় কি বিনা সত্যতায় মুনসেফী আদালতে কিম্বা দায়রায় সোপর্দ আসামী ফরিয়াদী সাক্ষী সাবুদ গয়রহ মোকর্দমা দায়ের কিম্বা আপোস মকমল ডিক্রীজারী নিলাম ইস্তাহার ইত্যাদি সর্বপ্রকার কর্তব্য বিধায়</p>
+            </div>
+            <div class="w3-card-2 column-news-item"><h5 class="h-news w3-text-green"><h5 class="h-news w3-text-green"><a style="text-decoration: none;" href="#">তাজা খবর!</a></h5><p style="text-align:justify;">ইয়াদি কির্দ অত্র কাকালতনামা লিখিতং শ্রীকাক্কেশ্বর কুচ্কুচে কার্যঞ্চাগে। ইমারত্ খেসারত্ দলিল দস্তাবেজ। তস্য ওয়ারিশানগণ মালিক দখলিকার সত্ত্বে অত্র নায়েব সেরেস্তায় দস্ত বদস্ত কায়েম মোকররী পত্তনীপাট্টা অথবা কাওলা কবুলিয়ত্। সত্যতায় কি বিনা সত্যতায় মুনসেফী আদালতে কিম্বা দায়রায় সোপর্দ আসামী ফরিয়াদী সাক্ষী সাবুদ গয়রহ মোকর্দমা দায়ের কিম্বা আপোস মকমল ডিক্রীজারী নিলাম ইস্তাহার ইত্যাদি সর্বপ্রকার কর্তব্য বিধায়</p>
+            </div>
+            <div class="w3-card-2 column-news-item"><h5 class="h-news w3-text-green"><a style="text-decoration: none;" href="#">তাজা খবর!</a></h5><p style="text-align:justify;">ইয়াদি কির্দ অত্র কাকালতনামা লিখিতং শ্রীকাক্কেশ্বর কুচ্কুচে কার্যঞ্চাগে। ইমারত্ খেসারত্ দলিল দস্তাবেজ। তস্য ওয়ারিশানগণ মালিক দখলিকার সত্ত্বে অত্র নায়েব সেরেস্তায় দস্ত বদস্ত কায়েম মোকররী পত্তনীপাট্টা অথবা কাওলা কবুলিয়ত্। সত্যতায় কি বিনা সত্যতায় মুনসেফী আদালতে কিম্বা দায়রায় সোপর্দ আসামী ফরিয়াদী সাক্ষী সাবুদ গয়রহ মোকর্দমা দায়ের কিম্বা আপোস মকমল ডিক্রীজারী নিলাম ইস্তাহার ইত্যাদি সর্বপ্রকার কর্তব্য বিধায়</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+<div class="w3-container w3-red w3-col l3" style="margin-top:10px;"><span class="w3-closebtn" onclick="this.parentElement.style.display='none'">X</span>
+  <h1 style="text-align:center"></br></br>আপনার</br></br>
+বিজ্ঞাপন</br></br>
+ দিন</br></br></h1></div>
+    </div>
+
+<footer class="footer w3-row w3-dark-grey"  style="text-align:center;clear:both; padding-top:20px;">
+<h4>This is a footer</h4>
+<p>Designed and Develpoed by <a href="http://codejuro.com" target="_blank">Codejuro</a></p>
+</footer>
+    <script>
+     var slideIndex = 1;
+     showDivs(slideIndex);
+     
+     function plusDivs(n) {
+       showDivs(slideIndex += n);
+     }
+     
+     function currentDiv(n) {
+       showDivs(slideIndex = n);
+     }
+     
+     function showDivs(n) {
+       var i;
+       var x = document.getElementsByClassName("featured-item");
+       var dots = document.getElementsByClassName("demo");
+       if (n > x.length) {slideIndex = 1}
+       if (n < 1) {slideIndex = x.length}
+       for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+       }
+       for (i = 0; i < dots.length; i++) {
+         dots[i].className = dots[i].className.replace(" w3-white", "");
+       }
+       x[slideIndex-1].style.display = "block";
+       dots[slideIndex-1].className += " w3-white";
+     }
+
+     carousel();
+
+     function carousel() {
+       showDivs(slideIndex += 1);
+       setTimeout(carousel, 2000);
+     }
+</script>
+  </body>
+</html>
